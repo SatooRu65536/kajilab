@@ -13,7 +13,7 @@ def integral(x):
 
 
 # CSVファイルのパス
-csv_file_path = "./log/iphone-2.csv"
+csv_file_path = "./log/iphone-walk1.csv"
 
 # CSVファイルを読み込む
 data = pd.read_csv(csv_file_path)

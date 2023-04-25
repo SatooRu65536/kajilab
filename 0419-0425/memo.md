@@ -1,9 +1,9 @@
 # スケジュール
-- [ ] 歩行軌跡の可視化
+- [x] 歩行軌跡の可視化
   - [x] データを取得する
-  - [ ] 加速度, 角速度をグラフ化
-  - [ ] 歩行軌跡を表示する
-  - [ ] 加速度の大きさに合わせて歩幅を変えてみる
+  - [x] 加速度, 角速度をグラフ化
+  - [x] 歩行軌跡を表示する
+  - [x] 加速度の大きさに合わせて歩幅を変えてみる
 
 
 # 進捗
@@ -94,6 +94,12 @@ charGPTに聞きながら作った
 変化はしている  
 (見やすいように少数第4位以下切り捨てしてある)
 
+### 歩行軌跡2
+![歩行軌跡2](./images/output_4.png)
+
+5歩軽く + 7歩大きく  
+大袈裟にしてみた。  
+
 # メモ
 ### ジャイロセンサーの向き
 ![角速度センサーの向き](images/ave-rotate.png)
@@ -107,3 +113,19 @@ fs はサンプリング周波数
 ### 微分
 > arr = np.random.rand(100, 10)
 > arr = np.diff(arr) * fs
+
+
+## メモ
+2乗誤差(RMSE)  
+[PythonでRMSE](https://www.delftstack.com/ja/howto/python/rmse-python/)
+
+- 誤差を出す
+- 三次元の軌跡を出す
+  - 二次元のグラフにする
+  - Unityの3次元データにする
+
+[kajilab.net](https://kajilab.net/kaji/)
+
+> Ichikari, R. Kaji, K., Shimomura, R., Kourogi, M., Okuma, T., and Kurata, T.: Off-Site Indoor Localization Competitions Based on Measured Data in a Warehouse, Sensors 2019, Vol.19, Issue.4, No.763, 2019.
+
+> Abe, M., Kaji, K., Hiroi, K., Kawaguchi, N. PIEM: Path Independent Evaluation Metric for Relative Localization, in Proceedings of the Seventh International Conference on Indoor Positioning and Indoor Navigation (IPIN2016), 2016.

@@ -128,4 +128,8 @@ fs はサンプリング周波数
 
 > Ichikari, R. Kaji, K., Shimomura, R., Kourogi, M., Okuma, T., and Kurata, T.: Off-Site Indoor Localization Competitions Based on Measured Data in a Warehouse, Sensors 2019, Vol.19, Issue.4, No.763, 2019.
 
+[MDPI](https://www.mdpi.com/1424-8220/19/4/763)
+
 > Abe, M., Kaji, K., Hiroi, K., Kawaguchi, N. PIEM: Path Independent Evaluation Metric for Relative Localization, in Proceedings of the Seventh International Conference on Indoor Positioning and Indoor Navigation (IPIN2016), 2016.
+
+[ACM](https://dl.acm.org/doi/abs/10.1145/3341162.3343765)

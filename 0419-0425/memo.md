@@ -116,7 +116,12 @@ fs はサンプリング周波数
 
 
 ## メモ
-2乗誤差(RMSE)  
+グラフタイトルに `X軸` などをしっかりかく  
+グラフの範囲(時間)が揃えてあるのが良い  
+歩行軌跡のグラフは歪ませてはいけない
+(x軸を10m=>1cm なら y軸も10m=>1cm)
+
+### 2乗誤差(RMSE)  
 [PythonでRMSE](https://www.delftstack.com/ja/howto/python/rmse-python/)
 
 - 誤差を出す
@@ -133,3 +138,7 @@ fs はサンプリング周波数
 > Abe, M., Kaji, K., Hiroi, K., Kawaguchi, N. PIEM: Path Independent Evaluation Metric for Relative Localization, in Proceedings of the Seventh International Conference on Indoor Positioning and Indoor Navigation (IPIN2016), 2016.
 
 [ACM](https://dl.acm.org/doi/abs/10.1145/3341162.3343765)
+
+## 単語帳
+### LiDAR(Light Detecton and Ranging)
+なんか誤差がとても小さく、禁止されてしまったやつ

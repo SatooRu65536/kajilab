@@ -135,3 +135,20 @@ RMSE: `0.7881589575527493`
 => データの取り方を変える
 
 普通に歩く -> 動画から歩幅を割り出す
+
+## 誤差を減らす
+
+# メモ
+[xDR challenge](http://hasc.jp/ipsc/)
+
+3次元のセンサーデータ  
+[HASC-IPSC](http://hasc.jp/ipsc/)
+
+## ハッカソン
+非日常からアイデアを探すと被りにくい  
+- 祭り
+  - 金魚すくい
+
+トイレットペーパーの回転から個人認識
+- [IPSJ](https://ipsj-one.org/2019/)  
+- [動画](https://ipsj-one.org/2019/videos/4_murao_fs.mp4)

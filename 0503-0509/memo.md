@@ -67,3 +67,19 @@ float.Parse(line[0], System.Globalization.NumberStyles.Float);
 ![スクショ](images/screenshot_1.png)
 
 動かしながら見れるようになった
+
+
+# メモ
+[kajilab.net 論文](https://kajilab.net/kaji/)
+> 梶克彦，河口信夫，安定センシング区間検出に基づく3次元歩行軌跡推定手法， 情報処理学会論文誌，Vol.57, No.1, pp.12-24，2016. (特選論文)
+
+直線や直角,並行な部分を割り出して綺麗にする研究  
+長期的にみてやる
+
+
+[情報処理学会](https://www.ipsj.or.jp/nyukai.html)
+入っておくと良い
+
+TODO:
+- 直線や直角,並行な部分を割り出して綺麗にする
+- Unity で時間通りのアニメーションにする

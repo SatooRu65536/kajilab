@@ -1,4 +1,4 @@
-# Open Hack U 2023 NAGOYA
+# 技育CAMP アドバンス & 端末状態推定
 
 ## 出席率
 - 3年セミナー：??%
@@ -72,3 +72,60 @@
 
 ### 修正
 一定区間の傾きが 0 に近い時は、動いていないと判断する
+
+### 修正後のグラフ
+![修正後のグラフ](images/output_4.png)
+
+`50ms` ごとに区切って、差が `0.15m/s^2` 以下の時は、動いていないと判断する
+
+### 修正後のグラフ(拡大)
+![修正後のグラフ(拡大)](images/output_5.png)
+
+大体は判別できているが、`50ms` の間に山があると判別できない  
+→ 前後の差ではなく、区間内の最大値と最小値の差をとる
+
+
+### 修正後のグラフ2
+![修正後のグラフ2](images/output_6.png)
+
+> 橙は区間内の最大値と最小値の差
+
+`200ms` ごとに区切り、区間内の最大値と最小値の差が `1m/s^2` 以下の時は、  
+動いていないと判断する
+
+
+## 進路関係
+なし
+
+
+## 余談
+### ポケGO
+東京であまりにも暇だったので久々に ポケGO をやった
+
+![ポケGO](images/pokego.png)
+
+消した
+
+### 技育CAMP アドバンス
+![MIXI賞](images/mixi.jpg)
+
+**株式会社MIXI賞** を頂いた
+
+
+### Rust
+Rust と eframe, egui でデスクトップアプリ作ってみた
+
+<img width="912" alt="rust.png (372.0 kB)" src="https://img.esa.io/uploads/production/attachments/13979/2023/09/05/148142/1e0317a1-eb15-4535-b576-47bda449584a.png">
+
+<iframe width="880" height="400" src="https://www.youtube.com/embed/Ptb5_1JS6fA" title="Rust (eframe &amp; egui) 2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+プログラミング演習の問題をRustで書いてみる(予定)
+
+
+### 親に進路について言った
+
+> 学費は 公立大学 の分以外が返してもらうけど  
+> 好きなようにしたらいんじゃない  
+
+現状: 院進もあり  
+まだ慎重に考える

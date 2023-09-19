@@ -99,9 +99,13 @@ df_tilt["yaw"] = df_tilt["yaw"] - math.pi / 2
 世界座標系にはなったが、勢いよく回転させたときに傾きがおかしいが、
 妥協点かもしれない
 
-- 急な回転をなくしたデータをとる
-  - 歩く-止まる を繰り返しながらスマホを回転させてみる
+### 歩いた時のデータを使う
+スマホをポケットに入れてU字に歩く
 
+`10歩前進` - `右向いて4歩前進` - `右向いて10歩前進`
+
+![元データ](images/output_1.png)
+![世界座標に変換したデータ](images/output_2.png)
 
 ## 余談
 ### バイト始めました
@@ -111,6 +115,33 @@ df_tilt["yaw"] = df_tilt["yaw"] - math.pi / 2
 - Nestjs
 - MySQL
 - EJS
+
+
+### Rust 使ってみた
+勤怠を記録するメニューバーアプリを作った
+Tauri を使っているがフロント側は0で、全てRustで書いた
+Tauri の良さを潰している
+
+<iframe width="439" height="780" src="https://www.youtube.com/embed/JgSETnRwGBc" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+### Jetpack Compose 触ってみた
+パッケージの扱い方わかんない.
+大人しく最初から勉強します
+
+![Jetpack Compose](images/jetpack-compose.png)
+
+
+### カーブでセンシングしてみた
+右カーブでセンシングしてみた
+![カーブ](images/curve-acc-x.png)
+![カーブ](images/curve-acc-y.png)
+![カーブ](images/curve-acc-z.png)
+![カーブ](images/curve-gyro.png)
+![カーブ](images/curve-rotate.png)
+
+右カーブが大きく現れていて何かに使えそう.
+今週山道走る時にもっととってみる
 
 
 ### 旅行いってきた
@@ -135,6 +166,8 @@ df_tilt["yaw"] = df_tilt["yaw"] - math.pi / 2
 
 寿司たべた
 ![寿司](images/sushi.jpg)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/HYxn68bXb-o?si=PEHBcjSPyNIzVbrR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 
 # メモ

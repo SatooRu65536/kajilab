@@ -115,3 +115,7 @@ Next: Rust でUDPを取得する
 
 #### 2日目
 ![技育祭 1日目](./images/geeksai02.jpg)
+
+
+# メモ
+[ドキュメント](https://www.sony.net/Products/mocopi-dev/jp/)

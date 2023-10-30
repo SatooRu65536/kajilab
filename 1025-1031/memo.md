@@ -40,7 +40,7 @@ bvhで保存したファイルからの動作推定を先にした
 ### BVH Sender
 > mocopiアプリで記録したモーションデータ（BVH形式）を、ローカルネットワーク上にUDP送信することができるアプリケーションです。
 
-<iframe width="1136" height="698" src="https://www.youtube.com/embed/C9B_-uZBljY" title="WireShark bvhsender" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="1176" height="697" src="https://www.youtube.com/embed/TvTRliToipY" title="bvhsender-for-macos_v1.0.5" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 WireShark で見てみると、UDPで送信されていることがわかる
 <iframe width="1136" height="698" src="https://www.youtube.com/embed/C9B_-uZBljY" title="WireShark bvhsender" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

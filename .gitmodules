@@ -1,0 +1,6 @@
+[submodule "kjlb-cooking-action-estimation"]
+	path = kjlb-cooking-action-estimation
+	url = https://github.com/SatooRu65536/kjlb-cooking-action-estimation
+[submodule "cooking-action-estimation"]
+	path = cooking-action-estimation
+	url = https://github.com/SatooRu65536/kjlb-cooking-action-estimation
